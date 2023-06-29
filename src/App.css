@@ -1,0 +1,51 @@
+.app-style {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /*초과한 후 가로로 정렬 */
+  gap: 12px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoContainer {
+  width: 1200px;
+}
+
+.component-style {
+  width: 300px;
+  height: 200px;
+  border: 5px solid green;
+  border-radius: 10px;
+  display: flex;
+  /*flex 박스는 자식요소 가로로 정렬*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.TodoList {
+  text-align: center;
+}
+
+
+
+.middleBox {
+  display: flex;
+  /*보이는 가로 길이의 100퍼센트 = 100vw 세로길의 비율 = 10vh */
+  width: 1200px;
+  height: 10vh;
+  border-radius: 10px 10px 10px 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.contentBox {
+  margin-bottom: 20px;
+}
